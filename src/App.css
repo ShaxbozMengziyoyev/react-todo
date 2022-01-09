@@ -1,38 +1,93 @@
-.App {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #272728;
+}
+
+.todo-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 71px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #FAFAFA;
+}
+
+.count-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+  color: #F9B53A;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-div {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-input {
+  background: #1F1F21;
+  border: 1px solid #A0A0A1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px 200px;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todo-list {
+  text-align: center;
+  list-style-type: none;
 }
 
-.App-link {
-  color: #61dafb;
+.todo-item {
+  width: 400px;
+  border: 1px solid #F9B53A;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FAFAFA;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-input-todo {
+  margin-right: 120px;
+}
+
+.todo-button {
+  margin-left: 120px;
+  cursor: pointer;
+  background-color: #e4e4e7;
+  color: blue;
+  border: none;
+  transition: 0.5px;
+}
+
+.todo-button:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.select-todo {
+  border: none;
+  background-color: gold;
+  color: red;
+  margin-top: 20px;
+}
+
+.todo-text {
+  width: 670px;
+  border: 1px solid blue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #FFFFFF;
+  transform: translateY(-30px);
+  margin-left: 120px;
+  text-align: center;
+  margin-bottom: -25px;
 }
