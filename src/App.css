@@ -76,18 +76,22 @@ body {
   background-color: gold;
   color: red;
   margin-top: 20px;
+  padding: 7px 10px;
+  margin-left: 20px;
 }
 
 .todo-text {
-  width: 670px;
+  width: 1100px;
   border: 1px solid blue;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
-  line-height: 15px;
+  font-size: 16px;
+  line-height: 20px;
   color: #FFFFFF;
-  transform: translateY(-30px);
-  margin-left: 120px;
+  transform: translateY(-50px);
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   margin-bottom: -25px;
+  padding: 10px;
 }

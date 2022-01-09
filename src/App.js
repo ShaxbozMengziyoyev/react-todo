@@ -61,9 +61,9 @@ function App() {
             onChange={(e) => {
             setLang(e.target.value)
            }} className="select-todo">
-          <option value="uz">uz</option>
-          <option value="en">en</option>
-          <option value="ru">ru</option>
+          <option value="uz">UZ</option>
+          <option value="en">EN</option>
+          <option value="ru">RU</option>
         </select>
      
            <p className="todo-text">Info: {content[lang].coment}</p>
